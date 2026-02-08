@@ -24,7 +24,7 @@
           "mirrors": [
             {
               "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/curve/autopitchcurve.oudep",
-              "hash": "sha256:89ea556fbb9067174dd61d9f1bee62131c86d16e5c9f08f4ae0d415fce5fec85"
+              "hash": "sha256:bc74e055ced7d8d427061837baa0bd76c1c0c967feb8a68cfe146d8d7ba86d10"
             }
           ]
         }
