@@ -27,6 +27,15 @@
               "hash": "sha256:bc74e055ced7d8d427061837baa0bd76c1c0c967feb8a68cfe146d8d7ba86d10"
             }
           ]
+        },
+        {
+          "version": "1.0",
+          "mirrors": [
+            {
+              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/test/autopitchcurve_test.oudep",
+              "hash": "sha256:82af7fcef2164eeee401eff81e89b1109b5885a487f5536101e0f45f884e5a43"
+            }
+          ]
         }
       ]
     }
