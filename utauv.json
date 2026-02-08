@@ -5,7 +5,7 @@
   "count": 2,
   "items": [
     {
-      "id": "autopitch_curve",
+      "id": "autopitchcurve",
       "names": {
         "en": "AutoPitch Curve"
       },
