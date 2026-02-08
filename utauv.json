@@ -1,0 +1,34 @@
+{
+  "registry": "svs-index",
+  "kind": "softwares-all",
+  "version": 1,
+  "count": 2,
+  "items": [
+    {
+      "id": "autopitch_curve",
+      "names": {
+        "en": "AutoPitch Curve"
+      },
+      "category": "host_extension",
+      "developers": [
+        "asoqwer"
+      ],
+      "tags": [
+        "openutau",
+        "oudep",
+        "autopitch"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "mirrors": [
+            {
+              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/curve/autopitchcurve.oudep",
+              "hash": "sha256:553cf2f56ee3e605f5ad26d7508dcb5ae43a2c08d5018032c6c024b9c4e477cc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
