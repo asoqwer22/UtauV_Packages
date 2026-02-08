@@ -1,0 +1,494 @@
+{
+  "registry": "svs-index",
+  "kind": "softwares-all",
+  "version": 1,
+  "count": 25,
+  "items": [
+    {
+      "id": "cevioai",
+      "names": {
+        "en": "CeVIO AI"
+      },
+      "category": "host",
+      "developers": [
+        "Techno-Speech",
+        "V-Sync"
+      ],
+      "homepage_url": "https://cevio.jp/",
+      "download_page_url": "https://cevio.jp/downloads/cevio_ai/",
+      "tags": [
+        "commercial",
+        "windows",
+        "en",
+        "ja",
+        "cn"
+      ]
+    },
+    {
+      "id": "cs7",
+      "names": {
+        "en": "CeVIO Creative Studio 7"
+      },
+      "category": "host",
+      "developers": [
+        "Techno-Speech",
+        "V-Sync"
+      ],
+      "homepage_url": "https://cevio.jp/",
+      "download_page_url": "https://cevio.jp/downloads/",
+      "tags": [
+        "commercial",
+        "windows",
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "deepvocal",
+      "names": {
+        "en": "DeepVocal"
+      },
+      "category": "host",
+      "developers": [
+        "Boxstar"
+      ],
+      "homepage_url": "https://deep-vocal.com/#/",
+      "download_page_url": "https://deep-vocal.com/#/Product",
+      "tags": [
+        "host",
+        "free",
+        "windows",
+        "deepvocal"
+      ]
+    },
+    {
+      "id": "diffsinger",
+      "names": {
+        "en": "DiffSinger"
+      },
+      "category": "host",
+      "developers": [
+        "MoonInTheRiver",
+        "OpenVPI"
+      ],
+      "homepage_url": "https://github.com/openvpi/DiffSinger",
+      "tags": [
+        "open-source",
+        "ai"
+      ]
+    },
+    {
+      "id": "enunu",
+      "names": {
+        "en": "ENUNU"
+      },
+      "category": "host",
+      "developers": [
+        "crazy_toho"
+      ],
+      "homepage_url": "https://linktr.ee/enunu",
+      "tags": [
+        "host",
+        "windows",
+        "open-source"
+      ]
+    },
+    {
+      "id": "g2p-cmudict-07b",
+      "names": {
+        "en": "g2p-cmudict-07b"
+      },
+      "category": "host_extension",
+      "developers": [
+        "StAkira"
+      ],
+      "homepage_url": "https://github.com/openutau/g2p",
+      "download_page_url": null,
+      "tags": [
+        "openutau",
+        "oudep",
+        "g2p"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "mirrors": [
+            {
+              "url": "https://github.com/openutau/g2p/releases/download/1.0/g2p-cmudict-07b_v1.0.oudep",
+              "hash": "sha256:dbf4bcc1577c4c5640ba3db3bd299ab73057b4fdf33dde735596cb318f827e47"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g2p-ds-cmudict-07b",
+      "names": {
+        "en": "g2p-ds-cmudict-07b"
+      },
+      "category": "host_extension",
+      "developers": [
+        "StAkira"
+      ],
+      "homepage_url": "https://github.com/openutau/g2p",
+      "download_page_url": null,
+      "tags": [
+        "openutau",
+        "oudep",
+        "g2p"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "mirrors": [
+            {
+              "url": "https://github.com/openutau/g2p/releases/download/1.0/g2p-ds-cmudict-07b_v1.0.oudep",
+              "hash": "sha256:bd721cb86b66a8e93b02aa071913e1204991f2e531fd45bdea23b47aa29a67e6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neutrino",
+      "names": {
+        "en": "NEUTRINO"
+      },
+      "category": "host",
+      "developers": [
+        "STUDIO NEUTRINO"
+      ],
+      "homepage_url": "https://studio-neutrino.com/",
+      "tags": [
+        "windows",
+        "mac",
+        "linux",
+        "commercial",
+        "ai"
+      ]
+    },
+    {
+      "id": "openutau",
+      "names": {
+        "en": "OpenUtau"
+      },
+      "category": "host",
+      "developers": [
+        "Stakira"
+      ],
+      "homepage_url": "http://openutau.com/",
+      "download_page_url": "https://github.com/stakira/OpenUtau/releases",
+      "tags": [
+        "host",
+        "open-source",
+        "openutau",
+        "utau",
+        "vogen",
+        "enunu",
+        "diffsinger",
+        "windows",
+        "mac",
+        "linux"
+      ]
+    },
+    {
+      "id": "openutau-mobile",
+      "names": {
+        "en": "OpenUtau mobile"
+      },
+      "category": "host",
+      "developers": [
+        "vocoder712"
+      ],
+      "homepage_url": "https://github.com/vocoder712/OpenUtauMobile/",
+      "download_page_url": "https://github.com/vocoder712/OpenUtauMobile/releases",
+      "tags": [
+        "host",
+        "android",
+        "windows",
+        "utau",
+        "diffsinger",
+        "open-source"
+      ]
+    },
+    {
+      "id": "pc-nsf-hifigan",
+      "names": {
+        "en": "DiffSinger Community Vocoder - PC-NSF-HiFiGAN"
+      },
+      "category": "vocoder",
+      "developers": [
+        "Team OpenVPI"
+      ],
+      "homepage_url": "https://github.com/openvpi/vocoders",
+      "download_page_url": "https://github.com/openvpi/vocoders/releases",
+      "tags": [
+        "oudep",
+        "vocoder",
+        "diffsinger"
+      ],
+      "versions": [
+        {
+          "version": "2025.02",
+          "mirrors": [
+            {
+              "url": "https://github.com/openvpi/vocoders/releases/download/pc-nsf-hifigan-44.1k-hop512-128bin-2025.02/pc_nsf_hifigan_44.1k_hop512_128bin_2025.02.portable.oudep",
+              "hash": "sha256:f9f4c3d692b96295baa505efebd3ade5060677398b509fac3bd2d9ec5ef640b4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "piapro-studio",
+      "names": {
+        "en": "Piapro Studio",
+        "ja": "ピアプロスタジオ"
+      },
+      "category": "host",
+      "developers": [
+        "Crypton Future Media, Inc."
+      ],
+      "homepage_url": "https://piaprostudio.com/",
+      "tags": [
+        "lang:ja",
+        "commercial",
+        "windows",
+        "mac"
+      ]
+    },
+    {
+      "id": "sinsy",
+      "names": {
+        "en": "Sinsy",
+        "ja": "しぃんしぃ"
+      },
+      "category": "host",
+      "developers": [
+        "Nagoya Institute of Technology"
+      ],
+      "homepage_url": "https://www.sinsy.jp/",
+      "tags": [
+        "ai",
+        "lang:ja",
+        "lang:zh",
+        "lang:en"
+      ]
+    },
+    {
+      "id": "synth-v",
+      "names": {
+        "en": "Synthesizer V"
+      },
+      "category": "host",
+      "developers": [
+        "Dreamtonics Co., Ltd."
+      ],
+      "tags": [
+        "lang:ja",
+        "lang:zh",
+        "lang:en",
+        "commercial",
+        "synthv"
+      ]
+    },
+    {
+      "id": "synth-v-studio",
+      "names": {
+        "en": "Synthesizer V Studio"
+      },
+      "category": "host",
+      "developers": [
+        "Dreamtonics Co., Ltd."
+      ],
+      "homepage_url": "https://www.ah-soft.com/synth-v/sp1/",
+      "tags": [
+        "lang:ja",
+        "lang:en",
+        "lang:zh",
+        "lang:es",
+        "ai",
+        "synthv"
+      ]
+    },
+    {
+      "id": "synth-v-studio-2",
+      "names": {
+        "en": "Synthesizer V Studio 2"
+      },
+      "category": "host",
+      "developers": [
+        "Dreamtonics, Co., Ltd."
+      ],
+      "homepage_url": "https://dreamtonics.com/synthesizerv/",
+      "tags": [
+        "lang:ja",
+        "lang:n",
+        "lang:zh",
+        "lang:es",
+        "lang:ko",
+        "ai",
+        "synthv",
+        "commercial"
+      ]
+    },
+    {
+      "id": "utau",
+      "names": {
+        "en": "UTAU"
+      },
+      "category": "host",
+      "developers": [
+        "飴屋／菖蒲 (Ameya/Ayame)"
+      ],
+      "homepage_url": "https://utau2008.xrea.jp/",
+      "download_page_url": "https://utau2008.xrea.jp/",
+      "tags": [
+        "host",
+        "free",
+        "utau",
+        "windows"
+      ]
+    },
+    {
+      "id": "vocaloid1",
+      "names": {
+        "en": "VOCALOID 1"
+      },
+      "category": "host",
+      "developers": [
+        "Yamaha Corporation"
+      ],
+      "tags": [
+        "vocaloid",
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "vocaloid2",
+      "names": {
+        "en": "VOCALOID 2"
+      },
+      "category": "host",
+      "developers": [
+        "Yamaha Corporation"
+      ],
+      "homepage_url": "https://www.vocaloid.com/",
+      "tags": [
+        "commercial",
+        "vocaloid",
+        "host",
+        "windows"
+      ]
+    },
+    {
+      "id": "vocaloid3",
+      "names": {
+        "en": "VOCALOID 3"
+      },
+      "category": "host",
+      "developers": [
+        "Yamaha Corporation"
+      ],
+      "homepage_url": "https://www.vocaloid.com/",
+      "tags": [
+        "host",
+        "commercial",
+        "vocaloid",
+        "windows"
+      ]
+    },
+    {
+      "id": "vocaloid4",
+      "names": {
+        "en": "Vocaloid4"
+      },
+      "category": "host",
+      "developers": [
+        "Crypton Future Media, INC."
+      ],
+      "homepage_url": "https://www.vocaloid.com/",
+      "file_url": null,
+      "download_page_url": null,
+      "tags": [
+        "host",
+        "commercial",
+        "vocaloid",
+        "windows",
+        "mac"
+      ]
+    },
+    {
+      "id": "vocaloid5",
+      "names": {
+        "en": "VOCALOID 5"
+      },
+      "category": "host",
+      "developers": [
+        "Yamaha Corporation"
+      ],
+      "homepage_url": "https://www.vocaloid.com/",
+      "tags": [
+        "commercial",
+        "vocaloid",
+        "host",
+        "windows",
+        "mac"
+      ]
+    },
+    {
+      "id": "vocaloid6",
+      "names": {
+        "en": "VOCALOID 6"
+      },
+      "category": "host",
+      "developers": [
+        "Yamaha Corporation"
+      ],
+      "homepage_url": "https://www.vocaloid.com/",
+      "tags": [
+        "commercial",
+        "vocaloid",
+        "host",
+        "windows",
+        "mac"
+      ]
+    },
+    {
+      "id": "vogen",
+      "names": {
+        "en": "Vogen"
+      },
+      "category": "host",
+      "developers": [
+        "Doaz"
+      ],
+      "homepage_url": "https://github.com/aqtq314/Vogen.Client",
+      "download_page_url": "https://github.com/aqtq314/Vogen.Client/releases",
+      "tags": [
+        "host",
+        "open-source",
+        "vogen",
+        "windows"
+      ]
+    },
+    {
+      "id": "voisona",
+      "names": {
+        "en": "VoiSona"
+      },
+      "category": "host",
+      "developers": [
+        "Techno-Speech"
+      ],
+      "homepage_url": "https://voisona.com/song/",
+      "tags": [
+        "commercial",
+        "subscription",
+        "windows",
+        "mac"
+      ]
+    }
+  ]
+}
