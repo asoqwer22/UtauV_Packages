@@ -1,54 +1,113 @@
 {
   "registry": "utauv",
-  "kind": "softwares-all",
-  "version": 1,
-  "items": [
-    {
-      "id": "emerald-cvvc",
-      "names": {
-        "en": "Emerald CVVC"
-      },
-      "description": "Japanese CVVC voicebank package.",
-      "developers": [
-        "Emerald Team"
+  "kind": "singers-registry",
+  "version": 2,
+  "singers": {
+    "emerald": {
+      "name": "Emerald",
+      "cv": "SouЯ",
+      "images": [
+        "https://emeraldsingers.github.io/images/Emerald2025NoLogo.webp"
       ],
-      "category": "voicebank",
-      "tags": [
-        "voicebank",
-        "utau-singer"
-      ],
-      "homepage_url": "https://emeraldsingers.github.io/singer/emerald",
-      "voicebank": {
-        "image_url": "https://emeraldsingers.github.io/images/Emerald2025NoLogo_thumb.webp",
-        "website_url": "https://emeraldsingers.github.io/singer/emerald",
-        "languages": [
-          "Japanese"
-        ],
-        "types": [
-          "CVVC"
-        ],
-        "engines": [
-          "UTAU"
-        ],
-        "gender": "Male",
-        "install_subdir": "Emerald_CVVC"
+      "description": "Emerald is a Devil male virtual singer with versatile CVVC and CVC RUS voicebanks, featuring normal, childish, dark, and soft tones.",
+      "website_url": "https://emeraldsingers.github.io/singer/emerald",
+      "characterData": {
+        "Species": "Devil",
+        "Gender": "Male",
+        "Age": "14 years old",
+        "Height": "158 cm",
+        "Weight": "Unknown",
+        "Birthday": "15.09",
+        "Stone": "Emerald"
       },
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "Initial release",
-          "mirrors": [
+      "voicebanks": {
+        "CVVC": {
+          "id": "emerald-cvvc",
+          "description": "Main Japanese CVVC package.",
+          "url": "https://drive.google.com/file/d/PUT_FILE_ID_FOR_LATEST_CVVC/view?usp=sharing",
+          "history": {
+            "2.0.0": {
+              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvvc-v2.0.0/emerald_cvvc.zip",
+              "description": "Current stable release."
+            },
+            "1.5.0": {
+              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvvc-v1.5.0/emerald_cvvc.zip",
+              "description": "Pre-rework CVVC map."
+            },
+            "1.0.0": {
+              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvvc-v1.0.0/emerald_cvvc.zip",
+              "description": "Legacy initial release."
+            }
+          },
+          "supportedLanguages": [
+            "ja"
+          ],
+          "types": [
+            "CVVC"
+          ],
+          "engines": [
+            "UTAU"
+          ],
+          "install_subdir": "Emerald_CVVC",
+          "vocalModes": [
             {
-              "url": "https://github.com/example/repo/releases/download/emerald/emerald_cvvc.zip",
-              "hash": "sha256:PUT_REAL_SHA256_HERE"
+              "name": "Normal",
+              "description": "Universal neutral tone",
+              "sample": "/samples/emerald/emerald_normalcvvc.mp3"
             },
             {
-              "url": "https://drive.google.com/file/d/GOOGLE_DRIVE_FILE_ID/view?usp=sharing",
-              "hash": "sha256:PUT_REAL_SHA256_HERE"
+              "name": "Childish",
+              "description": "A light and ringing voice",
+              "sample": "/samples/emerald/emerald_childishcvvc.mp3"
+            },
+            {
+              "name": "Dark",
+              "description": "Deep and rich tone",
+              "sample": "/samples/emerald/emerald_darkcvvc.mp3"
+            },
+            {
+              "name": "Soft",
+              "description": "Soft and calm tone",
+              "sample": "/samples/emerald/emerald_softcvvc.mp3"
             }
           ]
+        },
+        "CVC RUS": {
+          "id": "emerald-cvc-rus",
+          "description": "Russian CVC package.",
+          "url": "https://drive.google.com/file/d/PUT_FILE_ID_FOR_LATEST_CVCRUS/view?usp=sharing",
+          "history": {
+            "3.6.0": {
+              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvcrus-v3.6.0/emerald_cvc_rus.zip",
+              "description": "Multipitch, Dark, English phonemes."
+            }
+          },
+          "supportedLanguages": [
+            "ru"
+          ],
+          "types": [
+            "CVC"
+          ],
+          "engines": [
+            "UTAU"
+          ],
+          "install_subdir": "Emerald_CVC_RUS"
+        }
+      },
+      "videoDemos": [
+        {
+          "url": "https://www.youtube.com/embed/EpeqkWKsUMk",
+          "title": "[Emerald CVC RUS] V.3.6.0 Release - multipitch, Dark, english phonemes"
+        },
+        {
+          "url": "https://www.youtube.com/embed/IfdLe08hHvI",
+          "title": "【Emerald CVVC】Nori-P - Butterfly on your Right Shoulder (4th anniversary cover) UTAU"
+        },
+        {
+          "url": "https://www.youtube.com/embed/hZJjR__FTUM",
+          "title": "【Emerald】Affection Addiction - KAT x Aku P"
         }
       ]
     }
-  ]
+  }
 }
