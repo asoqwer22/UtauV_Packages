@@ -6,7 +6,7 @@
     "asoqwer": {
       "name": "Asoqwer",
       "cv": "Asoqwer",
-      "images": ["/images/asoqwer_thumb.webp"],
+      "images": ["https://emeraldsingers.github.io/images/asoqwer_thumb.webp"],
       "description": "Asoqwer is a Neko male virtual singer with a range of voicebanks including CVVC and VCV, offering normal, whisper, and power tones.",
       "voicebanks": {
         "CVVC": {
@@ -51,7 +51,7 @@
     "emerald": {
       "name": "Emerald",
       "cv": "SouЯ",
-      "images": ["/images/Emerald2025NoLogo_thumb.webp"],
+      "images": ["https://emeraldsingers.github.io/images/Emerald2025NoLogo_thumb.webp"],
       "description": "Emerald is a Devil male virtual singer with versatile CVVC and CVC RUS voicebanks, featuring normal, childish, dark, and soft tones.",
       "voicebanks": {
         "CVVC": {
