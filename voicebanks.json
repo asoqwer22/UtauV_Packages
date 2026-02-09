@@ -24,7 +24,7 @@
         "CVVC": {
           "id": "emerald-cvvc",
           "description": "Main Japanese CVVC package.",
-          "url": "https://drive.google.com/file/d/PUT_FILE_ID_FOR_LATEST_CVVC/view?usp=sharing",
+          "url": "https://drive.google.com/file/d/17VhCr9xhFNu_kOXeotAAH7NNtVcaisci/view?usp=drive_link",
           "history": {
             "2.0.0": {
               "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvvc-v2.0.0/emerald_cvvc.zip",
@@ -75,7 +75,7 @@
         "CVC RUS": {
           "id": "emerald-cvc-rus",
           "description": "Russian CVC package.",
-          "url": "https://drive.google.com/file/d/PUT_FILE_ID_FOR_LATEST_CVCRUS/view?usp=sharing",
+          "url": "https://drive.google.com/file/d/1aDjOj-FBu7rl-liJgenPe4t9ls7iZ7qG/view?usp=drive_link",
           "history": {
             "3.6.0": {
               "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvcrus-v3.6.0/emerald_cvc_rus.zip",
@@ -93,21 +93,7 @@
           ],
           "install_subdir": "Emerald_CVC_RUS"
         }
-      },
-      "videoDemos": [
-        {
-          "url": "https://www.youtube.com/embed/EpeqkWKsUMk",
-          "title": "[Emerald CVC RUS] V.3.6.0 Release - multipitch, Dark, english phonemes"
-        },
-        {
-          "url": "https://www.youtube.com/embed/IfdLe08hHvI",
-          "title": "【Emerald CVVC】Nori-P - Butterfly on your Right Shoulder (4th anniversary cover) UTAU"
-        },
-        {
-          "url": "https://www.youtube.com/embed/hZJjR__FTUM",
-          "title": "【Emerald】Affection Addiction - KAT x Aku P"
-        }
-      ]
+      }
     }
   }
 }
