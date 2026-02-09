@@ -12,7 +12,7 @@
         "CVVC": {
           "id": "asoqwer-cvvc",
           "description": "CVVC voicebank package",
-          "url": "https://drive.google.com/file/d/1m6KSsR13qWcEbM3m8K0NqQyVHtoZlgpo/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/asoqwer/asoqwercvvc.zip",
           "supportedLanguages": ["ja"],
           "types": ["CVVC"],
           "engines": ["UTAU"],
@@ -21,7 +21,7 @@
         "VCV": {
           "id": "asoqwer-vcv",
           "description": "VCV voicebank package",
-          "url": "https://drive.google.com/file/d/1fEWLIvGrwiTMxFyklcagDmRyMLbGb_8l/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/asoqwer/asoqwervcv.zip",
           "supportedLanguages": ["ja"],
           "types": ["VCV"],
           "engines": ["UTAU"],
@@ -39,7 +39,7 @@
         "CVVC": {
           "id": "emerald-cvvc",
           "description": "CVVC voicebank package",
-          "url": "https://drive.google.com/file/d/1NZWGl5bR8aCua8ILyzBnY63tlOsGsWPc/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald/Emerald.CVVC.Japanese.Multipitch.zip",
           "history": {
             "CVVC v1 (legacy)": "https://example.com/emerald-cvvc-v1.zip"
           },
@@ -51,7 +51,7 @@
         "CVC RUS": {
           "id": "emerald-cvc-rus",
           "description": "CVC RUS voicebank package",
-          "url": "https://drive.google.com/file/d/1e6EDpSA5zLykO_G3mmdp6fNT3iUfV1MD/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald/Emerald.V.3.6.0.zip",
           "supportedLanguages": ["ru"],
           "types": ["CVC"],
           "engines": ["UTAU"],
@@ -69,7 +69,7 @@
         "CVVC": {
           "id": "simon-weber-cvvc",
           "description": "CVVC voicebank package",
-          "url": "https://drive.google.com/file/d/1-1tiy9pEQzgkFWLbD6G_hfWGAMd274Zt/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/simonweber/Simon.Weber.CVVC.zip",
           "supportedLanguages": ["ja"],
           "types": ["CVVC"],
           "engines": ["UTAU"],
@@ -87,7 +87,7 @@
         "CV": {
           "id": "mitsuo-cv",
           "description": "CV voicebank package",
-          "url": "https://drive.google.com/file/d/17VhCr9xhFNu_kOXeotAAH7NNtVcaisci/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/mitsuo/CV.MITSUO.rar",
           "supportedLanguages": ["ja"],
           "types": ["CV"],
           "engines": ["UTAU"],
@@ -105,7 +105,7 @@
         "CVVC": {
           "id": "toisku-cvvc",
           "description": "CVVC voicebank package",
-          "url": "https://drive.google.com/file/d/1zp_PXikkp0gVsg3t93gHFXaVBtPU0Otn/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/untagged-687aad98959dc11ffeed/Toisku.CVVC.JPN.zip",
           "supportedLanguages": ["ja"],
           "types": ["CVVC"],
           "engines": ["UTAU"],
@@ -114,7 +114,7 @@
         "CVC RUS": {
           "id": "toisku-cvc-rus",
           "description": "CVC RUS voicebank package",
-          "url": "https://drive.google.com/file/d/1z5Zd8ehvemkyMD6ZbVeH1O0BmaMngdm4/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/toisku/Toisku.CVC.RUS.zip",
           "supportedLanguages": ["ru"],
           "types": ["CVC"],
           "engines": ["UTAU"],
@@ -132,7 +132,7 @@
         "CVVC": {
           "id": "kira-cvvc",
           "description": "CVVC voicebank package",
-          "url": "https://drive.google.com/file/d/1aDjOj-FBu7rl-liJgenPe4t9ls7iZ7qG/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/kira/KIRA.EP.JP.CVVC.rar",
           "supportedLanguages": ["ja"],
           "types": ["CVVC"],
           "engines": ["UTAU"],
@@ -150,36 +150,11 @@
         "CVVC": {
           "id": "douri-cvvc",
           "description": "CVVC voicebank package",
-          "url": "https://drive.google.com/file/d/1ZTKrMeX0_Fn7y2Pg_3mvWk9gjQoSiIrH/view?usp=sharing",
+          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/douri/DOURI.EP.JP.CVVC.rar",
           "supportedLanguages": ["ja"],
           "types": ["CVVC"],
           "engines": ["UTAU"],
           "install_subdir": "Fukuna_Douri_CVVC"
-        }
-      }
-    },
-
-    "shin": {
-      "name": "SHIN",
-      "cv": "DIVON",
-      "images": ["https://emeraldsingers.github.io/images/SHIN_AI_demo.webp"],
-      "description": "Hi",
-      "voicebanks": {
-        "VCV": {
-          "id": "shin-vcv",
-          "description": "VCV voicebank package",
-          "url": "https://mega.nz/folder/GtsDxQrD#DvzWGMexZtRSwkhlMuCOXg",
-          "history": {
-            "Placeholder 1": "https://example.com/placeholder.zip",
-            "Placeholder 2": {
-              "url": "https://example.com/placeholderv2.zip",
-              "description": "Placeholder note for version 2"
-            }
-          },
-          "supportedLanguages": ["ja"],
-          "types": ["VCV"],
-          "engines": ["UTAU"],
-          "install_subdir": "SHIN_VCV"
         }
       }
     }
