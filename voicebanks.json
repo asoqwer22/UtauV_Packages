@@ -1,0 +1,54 @@
+{
+  "registry": "utauv",
+  "kind": "softwares-all",
+  "version": 1,
+  "items": [
+    {
+      "id": "emerald-cvvc",
+      "names": {
+        "en": "Emerald CVVC"
+      },
+      "description": "Japanese CVVC voicebank package.",
+      "developers": [
+        "Emerald Team"
+      ],
+      "category": "voicebank",
+      "tags": [
+        "voicebank",
+        "utau-singer"
+      ],
+      "homepage_url": "https://emeraldsingers.github.io/singer/emerald",
+      "voicebank": {
+        "image_url": "https://emeraldsingers.github.io/images/Emerald2025NoLogo_thumb.webp",
+        "website_url": "https://emeraldsingers.github.io/singer/emerald",
+        "languages": [
+          "Japanese"
+        ],
+        "types": [
+          "CVVC"
+        ],
+        "engines": [
+          "UTAU"
+        ],
+        "gender": "Male",
+        "install_subdir": "Emerald_CVVC"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "Initial release",
+          "mirrors": [
+            {
+              "url": "https://github.com/example/repo/releases/download/emerald/emerald_cvvc.zip",
+              "hash": "sha256:PUT_REAL_SHA256_HERE"
+            },
+            {
+              "url": "https://drive.google.com/file/d/GOOGLE_DRIVE_FILE_ID/view?usp=sharing",
+              "hash": "sha256:PUT_REAL_SHA256_HERE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
