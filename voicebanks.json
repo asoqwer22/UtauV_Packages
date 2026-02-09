@@ -26,24 +26,6 @@
           "types": ["VCV"],
           "engines": ["UTAU"],
           "install_subdir": "Asoqwer_VCV"
-        },
-        "RVC Normal": {
-          "id": "asoqwer-rvc-normal",
-          "description": "RVC model (Normal)",
-          "url": "https://www.weights.com/ru/models/cm6koudmc2ieknh192auqw96e",
-          "supportedLanguages": [],
-          "types": ["RVC"],
-          "engines": ["RVC"],
-          "install_subdir": "Asoqwer_RVC_Normal"
-        },
-        "RVC Raspy": {
-          "id": "asoqwer-rvc-raspy",
-          "description": "RVC model (Raspy)",
-          "url": "https://www.weights.com/ru/models/cm6kp6gf02erlpj19y1va7czf",
-          "supportedLanguages": [],
-          "types": ["RVC"],
-          "engines": ["RVC"],
-          "install_subdir": "Asoqwer_RVC_Raspy"
         }
       }
     },
@@ -110,15 +92,6 @@
           "types": ["CV"],
           "engines": ["UTAU"],
           "install_subdir": "Mitsuo_CV"
-        },
-        "RVC": {
-          "id": "mitsuo-rvc",
-          "description": "RVC model",
-          "url": "https://www.weights.com/ru/models/cm7p25bsz66jto915lydx2sfx",
-          "supportedLanguages": [],
-          "types": ["RVC"],
-          "engines": ["RVC"],
-          "install_subdir": "Mitsuo_RVC"
         }
       }
     },
@@ -146,15 +119,6 @@
           "types": ["CVC"],
           "engines": ["UTAU"],
           "install_subdir": "Toisku_CVC_RUS"
-        },
-        "RVC": {
-          "id": "toisku-rvc",
-          "description": "RVC model",
-          "url": "https://www.weights.com/ru/models/cmgbd583300p30acxsspozsyc",
-          "supportedLanguages": [],
-          "types": ["RVC"],
-          "engines": ["RVC"],
-          "install_subdir": "Toisku_RVC"
         }
       }
     },
