@@ -40,9 +40,6 @@
           "id": "emerald-cvvc",
           "description": "CVVC voicebank package",
           "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald/Emerald.CVVC.Japanese.Multipitch.zip",
-          "history": {
-            "CVVC v1 (legacy)": "https://example.com/emerald-cvvc-v1.zip"
-          },
           "supportedLanguages": ["ja"],
           "types": ["CVVC"],
           "engines": ["UTAU"],
