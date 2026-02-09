@@ -3,95 +3,219 @@
   "kind": "singers-registry",
   "version": 2,
   "singers": {
+    "asoqwer": {
+      "name": "Asoqwer",
+      "cv": "Asoqwer",
+      "images": ["/images/asoqwer_thumb.webp"],
+      "description": "Asoqwer is a Neko male virtual singer with a range of voicebanks including CVVC and VCV, offering normal, whisper, and power tones.",
+      "voicebanks": {
+        "CVVC": {
+          "id": "asoqwer-cvvc",
+          "description": "CVVC voicebank package",
+          "url": "https://drive.google.com/file/d/1m6KSsR13qWcEbM3m8K0NqQyVHtoZlgpo/view?usp=sharing",
+          "supportedLanguages": ["ja"],
+          "types": ["CVVC"],
+          "engines": ["UTAU"],
+          "install_subdir": "Asoqwer_CVVC"
+        },
+        "VCV": {
+          "id": "asoqwer-vcv",
+          "description": "VCV voicebank package",
+          "url": "https://drive.google.com/file/d/1fEWLIvGrwiTMxFyklcagDmRyMLbGb_8l/view?usp=sharing",
+          "supportedLanguages": ["ja"],
+          "types": ["VCV"],
+          "engines": ["UTAU"],
+          "install_subdir": "Asoqwer_VCV"
+        },
+        "RVC Normal": {
+          "id": "asoqwer-rvc-normal",
+          "description": "RVC model (Normal)",
+          "url": "https://www.weights.com/ru/models/cm6koudmc2ieknh192auqw96e",
+          "supportedLanguages": [],
+          "types": ["RVC"],
+          "engines": ["RVC"],
+          "install_subdir": "Asoqwer_RVC_Normal"
+        },
+        "RVC Raspy": {
+          "id": "asoqwer-rvc-raspy",
+          "description": "RVC model (Raspy)",
+          "url": "https://www.weights.com/ru/models/cm6kp6gf02erlpj19y1va7czf",
+          "supportedLanguages": [],
+          "types": ["RVC"],
+          "engines": ["RVC"],
+          "install_subdir": "Asoqwer_RVC_Raspy"
+        }
+      }
+    },
+
     "emerald": {
       "name": "Emerald",
       "cv": "SouЯ",
-      "images": [
-        "https://emeraldsingers.github.io/images/Emerald2025NoLogo_thumb.webp"
-      ],
+      "images": ["/images/Emerald2025NoLogo_thumb.webp"],
       "description": "Emerald is a Devil male virtual singer with versatile CVVC and CVC RUS voicebanks, featuring normal, childish, dark, and soft tones.",
-      "website_url": "https://emeraldsingers.github.io/singer/emerald",
-      "characterData": {
-        "Species": "Devil",
-        "Gender": "Male",
-        "Age": "14 years old",
-        "Height": "158 cm",
-        "Weight": "Unknown",
-        "Birthday": "15.09",
-        "Stone": "Emerald"
-      },
       "voicebanks": {
         "CVVC": {
           "id": "emerald-cvvc",
-          "description": "Main Japanese CVVC package.",
-          "url": "https://drive.google.com/file/d/17VhCr9xhFNu_kOXeotAAH7NNtVcaisci/view?usp=drive_link",
+          "description": "CVVC voicebank package",
+          "url": "https://drive.google.com/file/d/1NZWGl5bR8aCua8ILyzBnY63tlOsGsWPc/view?usp=sharing",
           "history": {
-            "2.0.0": {
-              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvvc-v2.0.0/emerald_cvvc.zip",
-              "description": "Current stable release."
-            },
-            "1.5.0": {
-              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvvc-v1.5.0/emerald_cvvc.zip",
-              "description": "Pre-rework CVVC map."
-            },
-            "1.0.0": {
-              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvvc-v1.0.0/emerald_cvvc.zip",
-              "description": "Legacy initial release."
-            }
+            "CVVC v1 (legacy)": "https://example.com/emerald-cvvc-v1.zip"
           },
-          "supportedLanguages": [
-            "ja"
-          ],
-          "types": [
-            "CVVC"
-          ],
-          "engines": [
-            "UTAU"
-          ],
-          "install_subdir": "Emerald_CVVC",
-          "vocalModes": [
-            {
-              "name": "Normal",
-              "description": "Universal neutral tone",
-              "sample": "/samples/emerald/emerald_normalcvvc.mp3"
-            },
-            {
-              "name": "Childish",
-              "description": "A light and ringing voice",
-              "sample": "/samples/emerald/emerald_childishcvvc.mp3"
-            },
-            {
-              "name": "Dark",
-              "description": "Deep and rich tone",
-              "sample": "/samples/emerald/emerald_darkcvvc.mp3"
-            },
-            {
-              "name": "Soft",
-              "description": "Soft and calm tone",
-              "sample": "/samples/emerald/emerald_softcvvc.mp3"
-            }
-          ]
+          "supportedLanguages": ["ja"],
+          "types": ["CVVC"],
+          "engines": ["UTAU"],
+          "install_subdir": "Emerald_CVVC"
         },
         "CVC RUS": {
           "id": "emerald-cvc-rus",
-          "description": "Russian CVC package.",
-          "url": "https://drive.google.com/file/d/1aDjOj-FBu7rl-liJgenPe4t9ls7iZ7qG/view?usp=drive_link",
+          "description": "CVC RUS voicebank package",
+          "url": "https://drive.google.com/file/d/1e6EDpSA5zLykO_G3mmdp6fNT3iUfV1MD/view?usp=sharing",
+          "supportedLanguages": ["ru"],
+          "types": ["CVC"],
+          "engines": ["UTAU"],
+          "install_subdir": "Emerald_CVC_RUS"
+        }
+      }
+    },
+
+    "simon-weber": {
+      "name": "Simon Weber",
+      "cv": "Beaver-P",
+      "images": ["https://emeraldsingers.github.io/images/simon-weber-eu_thumb.webp"],
+      "description": "Simon Weber is a human male virtual singer with CVVC voicebanks, offering normal and power vocal tones.",
+      "voicebanks": {
+        "CVVC": {
+          "id": "simon-weber-cvvc",
+          "description": "CVVC voicebank package",
+          "url": "https://drive.google.com/file/d/1-1tiy9pEQzgkFWLbD6G_hfWGAMd274Zt/view?usp=sharing",
+          "supportedLanguages": ["ja"],
+          "types": ["CVVC"],
+          "engines": ["UTAU"],
+          "install_subdir": "Simon_Weber_CVVC"
+        }
+      }
+    },
+
+    "mitsuo": {
+      "name": "Mitsuo",
+      "cv": "mnifl",
+      "images": ["https://emeraldsingers.github.io/images/mitsuo_thumb.webp"],
+      "description": "Mitsuo is a human male virtual singer primarily available as an RVC model.",
+      "voicebanks": {
+        "CV": {
+          "id": "mitsuo-cv",
+          "description": "CV voicebank package",
+          "url": "https://drive.google.com/file/d/17VhCr9xhFNu_kOXeotAAH7NNtVcaisci/view?usp=sharing",
+          "supportedLanguages": ["ja"],
+          "types": ["CV"],
+          "engines": ["UTAU"],
+          "install_subdir": "Mitsuo_CV"
+        },
+        "RVC": {
+          "id": "mitsuo-rvc",
+          "description": "RVC model",
+          "url": "https://www.weights.com/ru/models/cm7p25bsz66jto915lydx2sfx",
+          "supportedLanguages": [],
+          "types": ["RVC"],
+          "engines": ["RVC"],
+          "install_subdir": "Mitsuo_RVC"
+        }
+      }
+    },
+
+    "toisku": {
+      "name": "Toisku",
+      "cv": "Leshy-P",
+      "images": ["https://emeraldsingers.github.io/images/toisku_thumb.webp"],
+      "description": "Hi",
+      "voicebanks": {
+        "CVVC": {
+          "id": "toisku-cvvc",
+          "description": "CVVC voicebank package",
+          "url": "https://drive.google.com/file/d/1zp_PXikkp0gVsg3t93gHFXaVBtPU0Otn/view?usp=sharing",
+          "supportedLanguages": ["ja"],
+          "types": ["CVVC"],
+          "engines": ["UTAU"],
+          "install_subdir": "Toisku_CVVC"
+        },
+        "CVC RUS": {
+          "id": "toisku-cvc-rus",
+          "description": "CVC RUS voicebank package",
+          "url": "https://drive.google.com/file/d/1z5Zd8ehvemkyMD6ZbVeH1O0BmaMngdm4/view?usp=sharing",
+          "supportedLanguages": ["ru"],
+          "types": ["CVC"],
+          "engines": ["UTAU"],
+          "install_subdir": "Toisku_CVC_RUS"
+        },
+        "RVC": {
+          "id": "toisku-rvc",
+          "description": "RVC model",
+          "url": "https://www.weights.com/ru/models/cmgbd583300p30acxsspozsyc",
+          "supportedLanguages": [],
+          "types": ["RVC"],
+          "engines": ["RVC"],
+          "install_subdir": "Toisku_RVC"
+        }
+      }
+    },
+
+    "kira": {
+      "name": "Fukuna Kira",
+      "cv": "YunnaForel",
+      "images": ["https://emeraldsingers.github.io/images/kira-thumb.webp"],
+      "description": "Hi",
+      "voicebanks": {
+        "CVVC": {
+          "id": "kira-cvvc",
+          "description": "CVVC voicebank package",
+          "url": "https://drive.google.com/file/d/1aDjOj-FBu7rl-liJgenPe4t9ls7iZ7qG/view?usp=sharing",
+          "supportedLanguages": ["ja"],
+          "types": ["CVVC"],
+          "engines": ["UTAU"],
+          "install_subdir": "Fukuna_Kira_CVVC"
+        }
+      }
+    },
+
+    "douri": {
+      "name": "Fukuna Douri",
+      "cv": "Didiuwuw",
+      "images": ["https://emeraldsingers.github.io/images/douri-thumb.webp"],
+      "description": "Hi",
+      "voicebanks": {
+        "CVVC": {
+          "id": "douri-cvvc",
+          "description": "CVVC voicebank package",
+          "url": "https://drive.google.com/file/d/1ZTKrMeX0_Fn7y2Pg_3mvWk9gjQoSiIrH/view?usp=sharing",
+          "supportedLanguages": ["ja"],
+          "types": ["CVVC"],
+          "engines": ["UTAU"],
+          "install_subdir": "Fukuna_Douri_CVVC"
+        }
+      }
+    },
+
+    "shin": {
+      "name": "SHIN",
+      "cv": "DIVON",
+      "images": ["https://emeraldsingers.github.io/images/SHIN_AI_demo.webp"],
+      "description": "Hi",
+      "voicebanks": {
+        "VCV": {
+          "id": "shin-vcv",
+          "description": "VCV voicebank package",
+          "url": "https://mega.nz/folder/GtsDxQrD#DvzWGMexZtRSwkhlMuCOXg",
           "history": {
-            "3.6.0": {
-              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/emerald-cvcrus-v3.6.0/emerald_cvc_rus.zip",
-              "description": "Multipitch, Dark, English phonemes."
+            "Placeholder 1": "https://example.com/placeholder.zip",
+            "Placeholder 2": {
+              "url": "https://example.com/placeholderv2.zip",
+              "description": "Placeholder note for version 2"
             }
           },
-          "supportedLanguages": [
-            "ru"
-          ],
-          "types": [
-            "CVC"
-          ],
-          "engines": [
-            "UTAU"
-          ],
-          "install_subdir": "Emerald_CVC_RUS"
+          "supportedLanguages": ["ja"],
+          "types": ["VCV"],
+          "engines": ["UTAU"],
+          "install_subdir": "SHIN_VCV"
         }
       }
     }
