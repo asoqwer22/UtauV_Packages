@@ -29,14 +29,33 @@
               "hash": "sha256:bc74e055ced7d8d427061837baa0bd76c1c0c967feb8a68cfe146d8d7ba86d10"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "autopitch",
+      "names": {
+        "en": "AutoPitch (Legacy, pitchbends)"
+      },
+      "description": "A host extension for OpenUtau that provides an AutoPitch feature and applies pitchbends to the notes.",
+      "category": "host_extension",
+      "developers": [
+        "asoqwer"
+      ],
+      "tags": [
+        "openutau",
+        "oudep",
+        "autopitch",
+        "legacy"
+      ],
+      "versions": [
         {
-          "version": "1.0",
-          "description": "Test version, please do not use, privet guys.",
+          "version": "1.3",
+          "description": "Beta release with new features and improvements.",
           "mirrors": [
             {
-              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/test/autopitchcurve_test.oudep",
-              "hash": "sha256:82af7fcef2164eeee401eff81e89b1109b5885a487f5536101e0f45f884e5a43"
+              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/AutoPitchLegacy/autopitch.oudep",
+              "hash": "sha256:df4fae103c051f034066ffcb8f9c9346b9de4783c4bce7d13cc76e7a582d4e85"
             }
           ]
         }
