@@ -21,6 +21,16 @@
       ],
       "versions": [
         {
+          "version": "1.2",
+          "description": "Stable release, increased model size and trained on more data for improved accuracy.",
+          "mirrors": [
+            {
+              "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/curve_v_1.3/autopitchcurve.oudep",
+              "hash": "sha256:dff9515c84b199cd18570d6395f800719faf2efc65248fcea93541d394a15ba2"
+            }
+          ]
+        },
+        {
           "version": "1.1",
           "description": "Stable release.",
           "mirrors": [
