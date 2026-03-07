@@ -7,6 +7,6 @@
   {
     "version": "1.2.0.4",
     "date": "2026-03-01",
-    "content": "## Version 1.2.0.4\n\n### Added\n- TikTok recording mode ([by keirokeer](https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/commit/a83d11444453d7c33130ef6d5465b0012f815381)).\n- Support for `.ccs` (CeVIO) project format.\n- Support for `.tssln` (VoiSona) project format.\n- Note opacity configuration.\n\n### Improved\n- Wave part editing: trim and fade support ([PR #1968 by Maiko](https://github.com/stakira/OpenUtau/pull/1968)).\n- Vibrato Variation and \"Randomize pitch deviation\" batch edit ([PR #1959 by p4o-a7o](https://github.com/stakira/OpenUtau/pull/1959)).\n- Adjusted part clamping logic for wave parts."
+    "content": "## Version 1.2.0.4\n\n### Added\n- TikTok recording mode ([by keirokeer](https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/commit/a83d11444453d7c33130ef6d5465b0012f815381)).\n- Support for `.ccs` (CeVIO) project format.\n- Support for `.tssln` (VoiSona) project format.\n- Note opacity configuration.\n\n### Improved\n- Wave part editing: trim and fade support ([PR #1968 by Maiko](https://github.com/stakira/OpenUtau/pull/1968)).\n- Vibrato Variation and \"Randomize pitch deviation\" batch edit ([PR #1959 by p4o-a7o](https://github.com/stakira/OpenUtau/pull/1959)).\n- Wave parts are no longer restricted by project start"
   }
 ]
