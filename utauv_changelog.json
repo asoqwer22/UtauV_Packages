@@ -1,12 +1,12 @@
 [
   {
     "version": "1.2.0.5",
-    "date": "2024-05-15",
-    "content": "## Version 1.2.0.5 (Latest)\n\n### Added\n- Added Note-Level Attention feature."
+    "date": "2026-03-04",
+    "content": "## Version 1.2.0.5 (Latest)\n\n### Added\n- Note-Level Attention feature.\n- Video recorder and export functionality using FFmpeg.\n- Custom UI font support.\n- New splash window.\n- Split Vocal Part feature.\n- Japanese C+V Phonemizer.\n- Custom singer theme support (notes, pitch, phonemes, etc.).\n\n### Updated\n- SVP parser updated with support for voice groups.\n\n### Improved\n- Added margin for vertical scroll playback.\n- Integrated Smooth Pitch Shape feature (merged from https://github.com/stakira/OpenUtau/pull/1987).\n\n### Fixed\n- Fixed stationary cursor behavior."
   },
   {
     "version": "1.2.0.4",
-    "date": "2024-05-10",
-    "content": "## Version 1.2.0.4\n\n### Added\n- Added Note Opacity configuration."
+    "date": "2026-03-01",
+    "content": "## Version 1.2.0.4\n\n### Added\n- TikTok recording mode (based on https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/commit/a83d11444453d7c33130ef6d5465b0012f815381).\n- Support for .ccs (CeVIO) project format.\n- Support for .tssln (VoiSona) project format.\n- Note opacity configuration.\n\n### Improved\n- Wave part editing: added trim and fade support (merged from https://github.com/stakira/OpenUtau/pull/1968).\n- Vibrato Variation and \"Randomize pitch deviation\" batch edit (merged from https://github.com/stakira/OpenUtau/pull/1959).\n- Adjusted part clamping logic for wave parts."
   }
 ]
