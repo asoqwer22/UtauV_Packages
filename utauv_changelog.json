@@ -1,1 +1,12 @@
-
+[
+  {
+    "version": "1.2.0.5",
+    "date": "2024-05-15",
+    "content": "## Version 1.2.0.5 (Latest)\n\n### Added\n- Added Note-Level Attention feature."
+  },
+  {
+    "version": "1.2.0.4",
+    "date": "2024-05-10",
+    "content": "## Version 1.2.0.4\n\n### Added\n- Added Note Opacity configuration."
+  }
+]
