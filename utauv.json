@@ -5,6 +5,35 @@
   "count": 2,
   "items": [
     {
+        "id": "rmvpe",
+        "names": {
+            "en": "RMVPE"
+        },
+        "description": "A host extension for OpenUtau that provides a RMVPE curve editor and applies the curve to the pitch of the notes.",
+        "category": "host_extension",
+        "developers": [
+            "yxlllc"
+        ],
+        "tags": [
+            "openutau",
+            "oudep",
+            "rmvpe"
+        ],
+        "versions": [
+            {
+                "version": "0.0.0",
+                "description": "Stable release",
+                "mirrors": [
+                    {
+                        "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/rmvpe/rmvpe.oudep",
+                        "hash": "sha256:72f9aebd1e0dc4e7e9ea23872934cb2c984203abf3da79942ed940c17f935f48"
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
       "id": "autopitchcurve",
       "names": {
         "en": "AutoPitch Curve"
