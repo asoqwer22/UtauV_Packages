@@ -7,7 +7,7 @@
     {
         "id": "rmvpe",
         "names": {
-            "en": "RMVPE"
+            "en": "A Robust Model for Vocal Pitch Estimation (RMVPE)"
         },
         "description": "A host extension for OpenUtau that provides a RMVPE curve editor and applies the curve to the pitch of the notes.",
         "category": "host_extension",
