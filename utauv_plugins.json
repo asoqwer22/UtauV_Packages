@@ -4,10 +4,6 @@
     "name": "Auto Contextual Alts",
     "category": "Batch Edits",
     "developers": ["Cadlaxa"],
-    "description": "This plugin analyses the vb's audio file names to get the phoneme sequence and compare them to get the right alternative alias.",
-    "descriptions": {
-      "en": "This plugin analyses the vb's audio file names to get the phoneme sequence and compare them to get the right alternative alias."
-    },
     "long_description": "* This plugin analyses the vb's audio file names to get the phoneme sequence and compare them to get the right alternative alias. Works best for Arpasing banks to align the right allophone alts so no more guessing them.\n* Works with phoneme formatted files (eg: hh_eh_l_ow_w_er_l_d.wav) or moresampler csv formatted files (eg: 110.wav)\n* Extract this into the plugins folder and open OU, to use this, go to Batch Edits > External > Batch Auto Contextual Alts",
     "homepage_url": "https://github.com/Cadlaxa/Batch-OpenUTAU-Plugins",
     "versions": [
@@ -23,4 +19,3 @@
     ]
   }
 ]
-
