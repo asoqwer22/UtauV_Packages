@@ -6,6 +6,8 @@
     "asoqwer": {
       "name": "Asoqwer",
       "team": "Emerald Project",
+      "website_url": "https://emeraldsingers.github.io/",
+      "link": "https://emeraldsingers.github.io/singer/asoqwer",
       "cv": "Asoqwer",
       "images": ["https://emeraldsingers.github.io/images/asoqwer_thumb.webp"],
       "description": "Asoqwer is a Neko male virtual singer with a range of voicebanks including CVVC and VCV, offering normal, whisper, and power tones.",
@@ -34,6 +36,8 @@
     "emerald": {
       "name": "Emerald",
       "team": "Emerald Project",
+      "website_url": "https://emeraldsingers.github.io/",
+      "link": "https://emeraldsingers.github.io/singer/emerald",
       "cv": "SouЯ",
       "images": ["https://emeraldsingers.github.io/images/Emerald2025NoLogo_thumb.webp"],
       "description": "Emerald is a Devil male virtual singer with versatile CVVC and CVC RUS voicebanks, featuring normal, childish, dark, and soft tones.",
@@ -62,6 +66,8 @@
     "simon-weber": {
       "name": "Simon Weber",
       "team": "Emerald Project",
+      "website_url": "https://emeraldsingers.github.io/",
+      "link": "https://emeraldsingers.github.io/singer/simon-weber",
       "cv": "Beaver-P",
       "images": ["https://emeraldsingers.github.io/images/simon-weber-eu_thumb.webp"],
       "description": "Simon Weber is a human male virtual singer with CVVC voicebanks, offering normal and power vocal tones.",
@@ -81,6 +87,8 @@
     "mitsuo": {
       "name": "Mitsuo",
       "team": "Emerald Project",
+      "website_url": "https://emeraldsingers.github.io/",
+      "link": "https://emeraldsingers.github.io/singer/mitsuo",
       "cv": "mnifl",
       "images": ["https://emeraldsingers.github.io/images/mitsuo_thumb.webp"],
       "description": "Mitsuo is a human male virtual singer primarily available as an RVC model.",
@@ -100,6 +108,8 @@
     "toisku": {
       "name": "Toisku",
       "team": "Emerald Project",
+      "website_url": "https://emeraldsingers.github.io/",
+      "link": "https://emeraldsingers.github.io/singer/toisku",
       "cv": "Leshy-P",
       "images": ["https://emeraldsingers.github.io/images/toisku_thumb.webp"],
       "description": "Hi",
@@ -128,6 +138,8 @@
     "kira": {
       "name": "Fukuna Kira",
       "team": "Emerald Project",
+      "website_url": "https://emeraldsingers.github.io/",
+      "link": "https://emeraldsingers.github.io/singer/kira",
       "cv": "YunnaForel",
       "images": ["https://emeraldsingers.github.io/images/kira-thumb.webp"],
       "description": "Hi",
@@ -147,6 +159,8 @@
     "douri": {
       "name": "Fukuna Douri",
       "team": "Emerald Project",
+      "website_url": "https://emeraldsingers.github.io/",
+      "link": "https://emeraldsingers.github.io/singer/douri",
       "cv": "Didiuwuw",
       "images": ["https://emeraldsingers.github.io/images/douri-thumb.webp"],
       "description": "Hi",
@@ -165,6 +179,8 @@
     "neodiva-irone-aka": {
       "name": "Irone Aka",
       "team": "NeoDIVA",
+      "website_url": "https://neodiva.xyz/",
+      "link": "https://neodiva.xyz/#irone_aka",
       "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/AkaIcon.webp?raw=true"],
       "description": "Irone Aka is a feminine leaning androgynous vocal. Their voice is catered towards rock and pop punk, but suits any style you prefer.",
       "long_description": "## NeoDIVA LEAD Vocalists Info\n\n### Extra Phonemes\n\n| Phoneme | Name | Usage |\n| :----- | --- | ---: |\n| SP | Silence | Denotes silent pauses |\n| AP | Breaths | Denotes pauses with an intake of breath |\n| cl | Plosive Modifier | This can be used after consonants to reign in their pronunciation a bit. |\n| q | Glottal Stop | uh-oh [ah q ow] |\n| vf | Vocal Fry | Added before vowels/consonants with low pitch curve for vocal fry |",
@@ -183,6 +199,8 @@
     "neodiva-wurmloid": {
       "name": "WURMLOID",
       "team": "NeoDIVA",
+      "website_url": "https://neodiva.xyz/",
+      "link": "https://neodiva.xyz/#wurmloid",
       "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/WurmloidIcon.webp?raw=true"],
       "description": "WURMLOID is a nyandroid erratically searching for purpose! It's voice is catered towards j-pop and idol music, but works well in other genres.",
       "long_description": "## NeoDIVA LEAD Vocalists Info\n\n### Extra Phonemes\n\n| Phoneme | Name | Usage |\n| :----- | --- | ---: |\n| SP | Silence | Denotes silent pauses |\n| AP | Breaths | Denotes pauses with an intake of breath |\n| cl | Plosive Modifier | This can be used after consonants to reign in their pronunciation a bit. |\n| q | Glottal Stop | uh-oh [ah q ow] |\n| vf | Vocal Fry | Added before vowels/consonants with low pitch curve for vocal fry |",
@@ -201,6 +219,8 @@
     "neodiva-alex-floarea": {
       "name": "Alex Floarea",
       "team": "NeoDIVA",
+      "website_url": "https://neodiva.xyz/",
+      "link": "https://neodiva.xyz/#alex_floarea",
       "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/AlexIcon.webp?raw=true"],
       "description": "Alex Floarea is a \"Zombie Idol\" brought to life through alchemy. Their voice is catered towards pop and r&b music.",
       "long_description": "## NeoDIVA LEAD Vocalists Info\n\n### Extra Phonemes\n\n| Phoneme | Name | Usage |\n| :----- | --- | ---: |\n| SP | Silence | Denotes silent pauses |\n| AP | Breaths | Denotes pauses with an intake of breath |\n| cl | Plosive Modifier | This can be used after consonants to reign in their pronunciation a bit. |\n| q | Glottal Stop | uh-oh [ah q ow] |\n| vf | Vocal Fry | Added before vowels/consonants with low pitch curve for vocal fry |",
@@ -219,6 +239,8 @@
     "neodiva-andromeda": {
       "name": "ANDROMEDA",
       "team": "NeoDIVA",
+      "website_url": "https://neodiva.xyz/",
+      "link": "https://neodiva.xyz/#andromeda",
       "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/AndromedaIcon.webp?raw=true"],
       "description": "ANDROMEDA is an eternal \"Space Goddess\". Her voice is catered pop and ballads.",
       "long_description": "## NeoDIVA LEAD Vocalists Info\n\n### Extra Phonemes\n\n| Phoneme | Name | Usage |\n| :----- | --- | ---: |\n| SP | Silence | Denotes silent pauses |\n| AP | Breaths | Denotes pauses with an intake of breath |\n| cl | Plosive Modifier | This can be used after consonants to reign in their pronunciation a bit. |\n| q | Glottal Stop | uh-oh [ah q ow] |\n| vf | Vocal Fry | Added before vowels/consonants with low pitch curve for vocal fry |",
@@ -237,6 +259,8 @@
     "neodiva-aurelian-silva": {
       "name": "Aurelian Silva",
       "team": "NeoDIVA",
+      "website_url": "https://neodiva.xyz/",
+      "link": "https://neodiva.xyz/#aurelian_silva",
       "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/AuriIcon.webp?raw=true"],
       "description": "Aurelian Silva is the \"King of the Sea\". His voice is an all-rounder vocal, suitable for most genres.",
       "long_description": "## NeoDIVA LEAD Vocalists Info\n\n### Extra Phonemes\n\n| Phoneme | Name | Usage |\n| :----- | --- | ---: |\n| SP | Silence | Denotes silent pauses |\n| AP | Breaths | Denotes pauses with an intake of breath |\n| cl | Plosive Modifier | This can be used after consonants to reign in their pronunciation a bit. |\n| q | Glottal Stop | uh-oh [ah q ow] |\n| vf | Vocal Fry | Added before vowels/consonants with low pitch curve for vocal fry |",
