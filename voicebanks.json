@@ -5,6 +5,7 @@
   "singers": {
     "asoqwer": {
       "name": "Asoqwer",
+      "team": "Emerald Project",
       "cv": "Asoqwer",
       "images": ["https://emeraldsingers.github.io/images/asoqwer_thumb.webp"],
       "description": "Asoqwer is a Neko male virtual singer with a range of voicebanks including CVVC and VCV, offering normal, whisper, and power tones.",
@@ -32,6 +33,7 @@
 
     "emerald": {
       "name": "Emerald",
+      "team": "Emerald Project",
       "cv": "SouЯ",
       "images": ["https://emeraldsingers.github.io/images/Emerald2025NoLogo_thumb.webp"],
       "description": "Emerald is a Devil male virtual singer with versatile CVVC and CVC RUS voicebanks, featuring normal, childish, dark, and soft tones.",
@@ -59,6 +61,7 @@
 
     "simon-weber": {
       "name": "Simon Weber",
+      "team": "Emerald Project",
       "cv": "Beaver-P",
       "images": ["https://emeraldsingers.github.io/images/simon-weber-eu_thumb.webp"],
       "description": "Simon Weber is a human male virtual singer with CVVC voicebanks, offering normal and power vocal tones.",
@@ -77,6 +80,7 @@
 
     "mitsuo": {
       "name": "Mitsuo",
+      "team": "Emerald Project",
       "cv": "mnifl",
       "images": ["https://emeraldsingers.github.io/images/mitsuo_thumb.webp"],
       "description": "Mitsuo is a human male virtual singer primarily available as an RVC model.",
@@ -95,6 +99,7 @@
 
     "toisku": {
       "name": "Toisku",
+      "team": "Emerald Project",
       "cv": "Leshy-P",
       "images": ["https://emeraldsingers.github.io/images/toisku_thumb.webp"],
       "description": "Hi",
@@ -122,6 +127,7 @@
 
     "kira": {
       "name": "Fukuna Kira",
+      "team": "Emerald Project",
       "cv": "YunnaForel",
       "images": ["https://emeraldsingers.github.io/images/kira-thumb.webp"],
       "description": "Hi",
@@ -140,6 +146,7 @@
 
     "douri": {
       "name": "Fukuna Douri",
+      "team": "Emerald Project",
       "cv": "Didiuwuw",
       "images": ["https://emeraldsingers.github.io/images/douri-thumb.webp"],
       "description": "Hi",
