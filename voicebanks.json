@@ -161,6 +161,91 @@
           "install_subdir": "Fukuna_Douri_CVVC"
         }
       }
+    },
+    "neodiva-irone-aka": {
+      "name": "Irone Aka",
+      "team": "NeoDIVA",
+      "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/AkaIcon.webp?raw=true"],
+      "description": "Irone Aka is a feminine leaning androgynous vocal. Their voice is catered towards rock and pop punk, but suits any style you prefer.",
+      "voicebanks": {
+        "DiffSinger": {
+          "id": "neodiva-irone-aka-ds",
+          "description": "DiffSinger voicebank package",
+          "url": "https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/releases/download/release/Irone_Aka_DS.zip",
+          "supportedLanguages": ["zh", "ca", "tw", "ja", "ko", "th", "en", "fr", "de", "nl", "es", "it", "el", "ro", "ru", "pl", "ka", "pt", "tp"],
+          "types": ["DiffSinger"],
+          "engines": ["DiffSinger"],
+          "install_subdir": "Irone_Aka_DS"
+        }
+      }
+    },
+    "neodiva-wurmloid": {
+      "name": "WURMLOID",
+      "team": "NeoDIVA",
+      "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/WurmloidIcon.webp?raw=true"],
+      "description": "WURMLOID is a nyandroid erratically searching for purpose! It's voice is catered towards j-pop and idol music, but works well in other genres.",
+      "voicebanks": {
+        "DiffSinger": {
+          "id": "neodiva-wurmloid-ds",
+          "description": "DiffSinger voicebank package",
+          "url": "https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/releases/download/release/Wurmloid_DS.zip",
+          "supportedLanguages": ["zh", "ca", "tw", "ja", "ko", "th", "en", "fr", "de", "nl", "es", "it", "el", "ro", "ru", "pl", "ka", "pt", "tp"],
+          "types": ["DiffSinger"],
+          "engines": ["DiffSinger"],
+          "install_subdir": "Wurmloid_DS"
+        }
+      }
+    },
+    "neodiva-alex-floarea": {
+      "name": "Alex Floarea",
+      "team": "NeoDIVA",
+      "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/AkaIcon.webp?raw=true"],
+      "description": "Alex Floarea is a \"Zombie Idol\" brought to life through alchemy. Their voice is catered towards pop and r&b music.",
+      "voicebanks": {
+        "DiffSinger": {
+          "id": "neodiva-alex-floarea-ds",
+          "description": "DiffSinger voicebank package",
+          "url": "https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/releases/download/release/Alex_Floarea_DS.zip",
+          "supportedLanguages": ["zh", "ca", "tw", "ja", "ko", "th", "en", "fr", "de", "nl", "es", "it", "el", "ro", "ru", "pl", "ka", "pt", "tp"],
+          "types": ["DiffSinger"],
+          "engines": ["DiffSinger"],
+          "install_subdir": "Alex_Floarea_DS"
+        }
+      }
+    },
+    "neodiva-andromeda": {
+      "name": "ANDROMEDA",
+      "team": "NeoDIVA",
+      "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/AndromedaIcon.webp?raw=true"],
+      "description": "ANDROMEDA is an eternal \"Space Goddess\". Her voice is catered pop and ballads.",
+      "voicebanks": {
+        "DiffSinger": {
+          "id": "neodiva-andromeda-ds",
+          "description": "DiffSinger voicebank package",
+          "url": "https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/releases/download/release/Andromeda_DS.zip",
+          "supportedLanguages": ["zh", "ca", "tw", "ja", "ko", "th", "en", "fr", "de", "nl", "es", "it", "el", "ro", "ru", "pl", "ka", "pt", "tp"],
+          "types": ["DiffSinger"],
+          "engines": ["DiffSinger"],
+          "install_subdir": "Andromeda_DS"
+        }
+      }
+    },
+    "neodiva-aurelian-silva": {
+      "name": "Aurelian Silva",
+      "team": "NeoDIVA",
+      "images": ["https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/blob/main/images/AuriIcon.webp?raw=true"],
+      "description": "Aurelian Silva is the \"King of the Sea\". His voice is an all-rounder vocal, suitable for most genres.",
+      "voicebanks": {
+        "DiffSinger": {
+          "id": "neodiva-aurelian-silva-ds",
+          "description": "DiffSinger voicebank package",
+          "url": "https://github.com/AlexFloareaVT/NeoDIVA-LEAD-Vocalists/releases/download/release/Aurelian_Silva_DS.zip",
+          "supportedLanguages": ["zh", "ca", "tw", "ja", "ko", "th", "en", "fr", "de", "nl", "es", "it", "el", "ro", "ru", "pl", "ka", "pt", "tp"],
+          "types": ["DiffSinger"],
+          "engines": ["DiffSinger"],
+          "install_subdir": "Aurelian_Silva_DS"
+        }
+      }
     }
   }
 }
