@@ -17,5 +17,43 @@
         ]
       }
     ]
+  },
+  {
+    "id": "singers_expression",
+    "name": "Per Track Singer's Expression",
+    "category": "Batch Edits",
+    "developers": ["Cadlaxa"],
+    "long_description": "* You can copy and customize the expressions.yaml per singer so when using this plugin, it loads all the singer's expression in the track\n* if there's no file yet in the singer's folder, it will use the main one in the plugins folder\n* Fixed a bug where curve params did not apply to the track",
+    "homepage_url": "https://github.com/Cadlaxa/Batch-OpenUTAU-Plugins",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "description": "Initial Release",
+        "mirrors": [
+          {
+            "url": "https://github.com/Cadlaxa/Batch-OpenUTAU-Plugins/releases/download/BatchPlugin-Singer'sExpression/Singer.s.Expression.zip"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "auto_normalizer",
+    "name": "Batch Automatic Normalizer Plugin",
+    "category": "Batch Edits",
+    "developers": ["Cadlaxa"],
+    "long_description": "* This plugin was built with Net8 and requires OpenUTAU version v0.1.568.0 and above in order to work\n* You can customize the normalize-config.yaml to specify phoneme groups and specific aliases to apply the P flag in the parameter directly.\n* You can copy normalize-config.yaml to the singer's folder so each singer has a different P flag output",
+    "homepage_url": "https://github.com/Cadlaxa/Batch-OpenUTAU-Plugins",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "description": "Initial Release",
+        "mirrors": [
+          {
+            "url": "https://github.com/Cadlaxa/Batch-OpenUTAU-Plugins/releases/download/BatchPlugin-AutoNormalize/AutoNormalize.zip"
+          }
+        ]
+      }
+    ]
   }
 ]
