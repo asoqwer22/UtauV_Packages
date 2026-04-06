@@ -55,5 +55,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": "pitd_points",
+    "name": "PITD & Pitch Points",
+    "category": "Batch Edits",
+    "developers": ["Cadlaxa"],
+    "long_description": "* **Convert Pitch & Vibrato to PITD and DYN**: Converts control pitch points to pitch deviation, vibrato is converted as well (if the vibrato has volume link, the value will be converted to dynamics)\n* **Convert PITD to Pitch Points (High Density)**: Same implementation with the built-in batch edits but this outputs high density control pitch points\n* **Simplify Pitch Points (Ease in/out)**: Reduces control pitch point density using a 2.0 tolerance threshold, smoothing out micro-tuning while perfectly preserving broad pitch sweeps and vibrato",
+    "homepage_url": "https://github.com/Cadlaxa/Batch-OpenUTAU-Plugins",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "description": "Initial Release",
+        "mirrors": [
+          {
+            "url": "https://github.com/Cadlaxa/Batch-OpenUTAU-Plugins/releases/download/BatchPlugin-PITDPoints/PITD-Points.dll"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en2ja_plus",
+    "name": "EN2JA+ Phonemizer",
+    "category": "Phonemizers",
+    "developers": ["Cadlaxa"],
+    "long_description": "EN2JA+ Phonemizer for OpenUtau.",
+    "homepage_url": "https://github.com/Cadlaxa/OpenUtau",
+    "versions": [
+      {
+        "version": "1.0.1",
+        "description": "Update",
+        "mirrors": [
+          {
+            "url": "https://github.com/Cadlaxa/OpenUtau/releases/download/en2ja%2B_phonemizer/EN2JA+.v101.zip"
+          }
+        ]
+      },
+      {
+        "version": "1.0.0",
+        "description": "Initial Release",
+        "mirrors": [
+          {
+            "url": "https://github.com/Cadlaxa/OpenUtau/releases/download/en2ja%2B_phonemizer/EN2JA+.v100.zip"
+          }
+        ]
+      }
+    ]
   }
 ]
