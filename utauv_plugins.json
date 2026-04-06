@@ -78,7 +78,7 @@
   {
     "id": "en2ja_plus",
     "name": "EN2JA+ Phonemizer",
-    "category": "Phonemizers",
+    "category": "plugin",
     "developers": ["Cadlaxa"],
     "long_description": "EN2JA+ Phonemizer for OpenUtau.",
     "homepage_url": "https://github.com/Cadlaxa/OpenUtau",
