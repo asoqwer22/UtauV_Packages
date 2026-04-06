@@ -91,14 +91,7 @@
             "url": "https://github.com/Cadlaxa/OpenUtau/releases/download/en2ja%2B_phonemizer/EN2JA+.v101.zip"
           }
         ]
-      },
-      {
-        "version": "1.0.0",
-        "description": "Initial Release",
-        "mirrors": [
-          {
-            "url": "https://github.com/Cadlaxa/OpenUtau/releases/download/en2ja%2B_phonemizer/EN2JA+.v100.zip"
-          }
+      }
         ]
       }
     ]
