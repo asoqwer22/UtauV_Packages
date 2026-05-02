@@ -78,7 +78,7 @@
   {
     "id": "en2ja_plus",
     "name": "EN2JA+ Phonemizer",
-    "category": "plugin",
+    "category": "phonemizer",
     "developers": ["Cadlaxa"],
     "long_description": "EN2JA+ Phonemizer for OpenUtau.",
     "homepage_url": "https://github.com/Cadlaxa/OpenUtau",
@@ -93,5 +93,48 @@
         ]
       }
     ]
+  },
+  {
+    "id": "hhskt_ru",
+    "name": "Russian Phonemizer for DiffSinger",
+    "category": "phonemizer",
+    "developers": [
+      "HHS_kt", "Megageorgio"
+    ],
+    "long_description": "Russian Phonemizer for DiffSinger for OpenUTAU utilizing a custom Russian G2p model.",
+    "homepage_url": "https://github.com/Megageorgio/hhskt_ru_phonemizer",
+    "versions": [
+      {
+        "version": "1.0.2",
+        "description": "It should work with new version of OpenUtau (0.1.565)",
+        "mirrors": [
+          {
+            "url": "https://github.com/Megageorgio/hhskt_ru_phonemizer/releases/download/v1.0.2/diffs_ru_hhskt.dll"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "multiphonemizer",
+    "name": "Master Router Phonemizer",
+    "category": "phonemizer",
+    "developers": [
+      "SODAsoo07"
+    ],
+    "long_description": "",
+    "homepage_url": "https://github.com/SODAsoo07/OpenUTAU-Multi-Phonemizer",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "description": "Initial Release",
+        "mirrors": [
+          {
+            "url": "https://github.com/SODAsoo07/OpenUTAU-Multi-Phonemizer/releases/download/1.0.0/MasterRouterPhonemizer-bySODAsoo.zip"
+          }
+        ]
+      }
+    ]
   }
+
 ]
