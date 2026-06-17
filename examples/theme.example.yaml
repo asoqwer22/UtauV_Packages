@@ -1,0 +1,34 @@
+# ============================================================
+# UtauV UI Theme
+# ============================================================
+# Place this file at:
+#   {your_github_username}/{theme_id}/{theme_name}.yaml
+# inside a fork of github.com/emeraldsingers/UtauV_Packages
+# then open a Pull Request and add the label "UtauV_Theme".
+#
+# build_themes_index.py will pick up every key that is NOT in
+# the meta-key set (type, id, name, author, version, description,
+# long_description, git_username, repo, preview_image, singers,
+# tags) and store them in the "palette" field of themes.json.
+# The Package Manager uses the palette for the mini-preview.
+# ============================================================
+
+# ── Meta keys ────────────────────────────────────────────────
+type: theme                          # must be exactly "theme"
+name: My Awesome Theme               # display name shown in the Package Manager
+author: your_github_username
+version: "1.0.0"
+description: A short one-line description of the theme.
+long_description: |
+  Optional longer description.
+  Supports multiple lines.
+git_username: your_github_username   # used to build the install path
+repo: UtauV_Packages                 # the repository name (usually UtauV_Packages)
+preview_image: ""                    # optional URL to a preview screenshot
+
+# ── Palette / colour keys ─────────────────────────────────────
+# All keys below are palette keys — they are NOT in the meta-key
+# set and will be collected into the "palette" dict in themes.json.
+# Use CSS hex colours (#RRGGBB or #AARRGGBB).
+
+
