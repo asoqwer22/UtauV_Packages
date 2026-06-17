@@ -1,10 +1,12 @@
 # ============================================================
-# UtauV UI Theme
+# UtauV UI Theme — flat colour manifest example
 # ============================================================
 # Place this file at:
-#   {your_github_username}/{theme_id}/{theme_name}.yaml
+#   themes/{your_github_username}/{theme_id}/{theme_name}.yaml
 # inside a fork of github.com/emeraldsingers/UtauV_Packages
 # then open a Pull Request and add the label "UtauV_Theme".
+#
+# Example: themes/asoqwer22/test_theme/high_contrast.yaml
 #
 # build_themes_index.py will pick up every key that is NOT in
 # the meta-key set (type, id, name, author, version, description,
@@ -31,4 +33,25 @@ preview_image: ""                    # optional URL to a preview screenshot
 # set and will be collected into the "palette" dict in themes.json.
 # Use CSS hex colours (#RRGGBB or #AARRGGBB).
 
+is_dark_mode: true
 
+# Canvas / background
+background_color: '#1E1E2E'
+foreground_color: '#CDD6F4'
+border_color: '#313244'
+
+# Accent colours (used for notes, highlights, etc.)
+system_accent_color: '#CBA6F7'
+accent_color1: '#7C6AF7'
+
+# Piano roll grid
+tick_line_color: '#2A2A3E'
+bar_number_color: '#A6ADC8'
+
+# Pitch / expression curves
+final_pitch_color: '#FF9F43'
+
+# Piano keys
+white_key_color_left: '#CDD6F4'
+black_key_color_left: '#1E1E2E'
+black_key_name_color: '#CDD6F4'

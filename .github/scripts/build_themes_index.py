@@ -6,13 +6,14 @@ Recursively scans the repository for theme manifest YAML files.  Any YAML
 file whose ``type`` field equals ``"theme"`` or ``"singer_theme"`` is treated
 as a theme manifest.  The expected (but not required) layout is:
 
-    {git_username}/{theme_id}/{theme_name}.yaml
+    themes/{git_username}/{theme_id}/{theme_name}.yaml
 
-The script is fully recursive: it walks the entire repository tree via
-``Path.rglob``, skipping hidden directories and the directories listed in
-``SKIP_DIRS``.  ``git_username`` and ``theme_id`` are taken from the manifest
-fields ``git_username`` / ``id`` when present; otherwise they are derived from
-the first two path segments relative to the repository root.
+All theme manifests live under the top-level ``themes/`` directory.  The
+script is fully recursive: it walks that subtree via ``Path.rglob``, skipping
+hidden directories and the directories listed in ``SKIP_DIRS``.
+``git_username`` and ``theme_id`` are taken from the manifest fields
+``git_username`` / ``id`` when present; otherwise they are derived from the
+first two path segments relative to the ``themes/`` directory.
 
 Output format
 -------------
@@ -55,6 +56,7 @@ try:
 except ImportError:
     sys.exit("PyYAML is required: pip install pyyaml")
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+THEMES_DIR = REPO_ROOT / "themes"
 OUTPUT_FILE = REPO_ROOT / "themes.json"
 SKIP_DIRS: set[str] = {".git", ".github", "__pycache__", "node_modules"}
 RAW_BASE_URL = (
@@ -117,6 +119,10 @@ def find_manifests(root: Path) -> list[tuple[Path, str, str]]:
     tuples for every YAML file that declares ``type: theme`` or
     ``type: singer_theme``.
 
+    *root* is the ``themes/`` directory.  Path segments used to derive
+    ``git_username`` / ``theme_id`` are therefore relative to ``themes/``
+    (i.e. ``{git_username}/{theme_id}/{theme_name}.yaml``).
+
     * Hidden directories (name starts with ``"."``) and directories listed in
       ``SKIP_DIRS`` are skipped at every level.
     * ``git_username`` and ``theme_id`` are taken from the manifest fields
@@ -125,6 +131,10 @@ def find_manifests(root: Path) -> list[tuple[Path, str, str]]:
     * Prints a diagnostic summary: total YAML files found and how many are
       recognised theme manifests.
     """
+    if not root.is_dir():
+        print(f"  themes/ directory not found at {root} — nothing to index.")
+        return []
+
     all_yaml: list[Path] = []
 
     for candidate in sorted(root.rglob("*.yaml")) + sorted(root.rglob("*.yml")):
@@ -154,8 +164,10 @@ def find_manifests(root: Path) -> list[tuple[Path, str, str]]:
         theme_type = str(data.get("type", "")).strip().lower()
         if theme_type not in ("theme", "singer_theme"):
             continue
+        # *root* is the themes/ directory, so path_parts are relative to it:
+        # e.g. ("asoqwer22", "test_theme", "high_contrast.yaml").
         rel = yaml_path.relative_to(root)
-        path_parts = rel.parts  # e.g. ("asoqwer22", "test_theme", "high_contrast.yaml")
+        path_parts = rel.parts
 
         git_username = str(data.get("git_username") or "").strip()
         if not git_username and len(path_parts) >= 1:
@@ -259,8 +271,8 @@ def manifest_to_registry_entry(
     return entry
 
 def main() -> None:
-    print(f"Scanning {REPO_ROOT} for theme manifests …")
-    manifests = find_manifests(REPO_ROOT)
+    print(f"Scanning {THEMES_DIR} for theme manifests …")
+    manifests = find_manifests(THEMES_DIR)
     repo_name = REPO_ROOT.name
 
     entries: list[dict[str, Any]] = []
