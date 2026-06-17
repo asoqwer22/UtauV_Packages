@@ -1,1 +1,109 @@
-[]
+[
+  {
+    "id": "asoqwer22.test-theme.colorblind-maximum-contrast-accessibility.966f2d8f",
+    "name": "Colorblind Maximum Contrast Accessibility",
+    "names": {
+      "en": "Colorblind Maximum Contrast Accessibility"
+    },
+    "description": "Test Theme",
+    "descriptions": {
+      "en": "Test Theme"
+    },
+    "long_description": "",
+    "tags": [
+      "UtauV_Theme"
+    ],
+    "developers": [
+      "asoqwer"
+    ],
+    "homepage_url": "https://github.com/emeraldsingers/UtauV_Packages",
+    "image_url": "",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "description": "Release 1.0.0",
+        "mirrors": [
+          {
+            "url": "https://raw.githubusercontent.com/emeraldsingers/UtauV_Packages/refs/heads/main/themes/asoqwer22/test_theme/high_contrast.yaml",
+            "hash": ""
+          }
+        ]
+      }
+    ],
+    "palette": {
+      "is_dark_mode": "True",
+      "background_color": "#050607",
+      "background_color_pointer_over": "#14171A",
+      "background_color_pressed": "#20252A",
+      "background_color_disabled": "#0D0F11",
+      "foreground_color": "#F8FAFC",
+      "foreground_color_pointer_over": "#FFFFFF",
+      "foreground_color_pressed": "#E2E8F0",
+      "foreground_color_disabled": "#8A94A3",
+      "border_color": "#4B5563",
+      "border_color_pointer_over": "#CBD5E1",
+      "system_accent_color": "#0072B2",
+      "system_accent_color_light1": "#56B4E9",
+      "system_accent_color_dark1": "#003F66",
+      "neutral_accent_color": "#B8C0CC",
+      "neutral_accent_color_pointer_over": "#E5E7EB",
+      "accent_color1": "#004C7A",
+      "accent_color2": "#E69F00",
+      "accent_color3": "#56B4E9",
+      "tick_line_color": "#242A33",
+      "bar_number_color": "#F1F5F9",
+      "final_pitch_color": "#FF66CC",
+      "track_background_alt_color": "#0B0E11",
+      "white_key_color_left": "#F8FAFC",
+      "white_key_color_right": "#E2E8F0",
+      "white_key_name_color": "#020617",
+      "center_key_color_left": "#CBD5E1",
+      "center_key_color_right": "#94A3B8",
+      "center_key_name_color": "#020617",
+      "black_key_color_left": "#1E293B",
+      "black_key_color_right": "#0F172A",
+      "black_key_name_color": "#FFFFFF"
+    },
+    "theme_manifest": {
+      "type": "theme",
+      "author": "asoqwer",
+      "version": "1.0.0",
+      "description": "Test Theme",
+      "git_username": "asoqwer22",
+      "repo": "UtauV_Packages",
+      "name": "Colorblind Maximum Contrast Accessibility",
+      "is_dark_mode": "True",
+      "background_color": "#050607",
+      "background_color_pointer_over": "#14171A",
+      "background_color_pressed": "#20252A",
+      "background_color_disabled": "#0D0F11",
+      "foreground_color": "#F8FAFC",
+      "foreground_color_pointer_over": "#FFFFFF",
+      "foreground_color_pressed": "#E2E8F0",
+      "foreground_color_disabled": "#8A94A3",
+      "border_color": "#4B5563",
+      "border_color_pointer_over": "#CBD5E1",
+      "system_accent_color": "#0072B2",
+      "system_accent_color_light1": "#56B4E9",
+      "system_accent_color_dark1": "#003F66",
+      "neutral_accent_color": "#B8C0CC",
+      "neutral_accent_color_pointer_over": "#E5E7EB",
+      "accent_color1": "#004C7A",
+      "accent_color2": "#E69F00",
+      "accent_color3": "#56B4E9",
+      "tick_line_color": "#242A33",
+      "bar_number_color": "#F1F5F9",
+      "final_pitch_color": "#FF66CC",
+      "track_background_alt_color": "#0B0E11",
+      "white_key_color_left": "#F8FAFC",
+      "white_key_color_right": "#E2E8F0",
+      "white_key_name_color": "#020617",
+      "center_key_color_left": "#CBD5E1",
+      "center_key_color_right": "#94A3B8",
+      "center_key_name_color": "#020617",
+      "black_key_color_left": "#1E293B",
+      "black_key_color_right": "#0F172A",
+      "black_key_name_color": "#FFFFFF"
+    }
+  }
+]
