@@ -1,0 +1,30 @@
+# ============================================================
+# UtauV Singer Theme
+# ============================================================
+# Place this file at:
+#   {your_github_username}/{theme_id}/{theme_name}.yaml
+# inside a fork of github.com/emeraldsingers/UtauV_Packages
+# then open a Pull Request and add the label "UtauV_SingerTheme".
+#
+# A singer theme overrides colours only when the active singer
+# matches one of the names listed in the "singers" field.
+# ============================================================
+
+# ── Meta keys ────────────────────────────────────────────────
+type: singer_theme                   # must be exactly "singer_theme"
+name: My Singer Theme                # display name shown in the Package Manager
+author: your_github_username
+version: "1.0.0"
+description: A colour theme for MySinger.
+long_description: |
+  Optional longer description.
+git_username: your_github_username
+repo: UtauV_Packages
+preview_image: ""                    # optional URL to a preview screenshot
+
+# Comma-separated list of singer names this theme applies to.
+singers: "MySinger, MySinger Append"
+
+# ── Palette / colour keys ─────────────────────────────────────
+# Same flat format as a UI theme.  All non-meta keys are collected
+# into the "palette" dict in themes.json.
