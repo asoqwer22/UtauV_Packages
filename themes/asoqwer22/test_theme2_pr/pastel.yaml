@@ -1,0 +1,51 @@
+type: theme
+author: asoqwer
+version: 1.0.0
+description: Test Pastel Theme (PR)
+git_username: asoqwer22
+repo: UtauV_Packages
+name: Soft Pastel Rose
+is_dark_mode: false
+
+background_color: '#FFF8FB'
+background_color_pointer_over: '#FFF0F6'
+background_color_pressed: '#FFE6F0'
+background_color_disabled: '#F6EEF2'
+
+foreground_color: '#5C4A56'
+foreground_color_pointer_over: '#4D3D48'
+foreground_color_pressed: '#3F323B'
+foreground_color_disabled: '#A89AA3'
+
+border_color: '#E8D7E0'
+border_color_pointer_over: '#DDBFCC'
+
+system_accent_color: '#F4A6C8'
+system_accent_color_light1: '#FFD6E7'
+system_accent_color_dark1: '#D985AC'
+
+neutral_accent_color: '#D9C8D2'
+neutral_accent_color_pointer_over: '#E9DDE4'
+
+accent_color1: '#F7B7D2'
+accent_color2: '#FFCAD4'
+accent_color3: '#D8B4F8'
+
+tick_line_color: '#F0E2E9'
+bar_number_color: '#8B7280'
+
+final_pitch_color: '#FF6FB5'
+
+track_background_alt_color: '#FFF2F7'
+
+white_key_color_left: '#FFFFFF'
+white_key_color_right: '#FFF8FB'
+white_key_name_color: '#6B5562'
+
+center_key_color_left: '#FFE6F0'
+center_key_color_right: '#FFD6E7'
+center_key_name_color: '#6B5562'
+
+black_key_color_left: '#B89AA8'
+black_key_color_right: '#A78695'
+black_key_name_color: '#FFFFFF'
