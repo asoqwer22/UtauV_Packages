@@ -1,16 +1,39 @@
+# =============================================================================
+# TEMPLATE / REFERENCE WORKFLOW — NOT FOR THIS REPOSITORY
+# =============================================================================
+# This file is a REFERENCE TEMPLATE intended for the UtauV_Packages repository
+# (https://github.com/emeraldsingers/UtauV_Packages), NOT for the OpenUtau
+# source repository where it currently lives.
+#
+# Copy this file to .github/workflows/themes-index.yml inside UtauV_Packages
+# and it will automatically regenerate themes.json whenever a pull request
+# labelled "UtauV_Theme" or "UtauV_SingerTheme" is merged into the main branch.
+#
+# Expected on-disk layout inside UtauV_Packages:
+#   themes/{git_username}/{theme_id}/{theme_name}.yaml   ← UI-theme manifest
+#   themes/{git_username}/{theme_id}/{theme_name}.yaml   ← singer-theme manifest
+#
+# The YAML files must contain at minimum the fields consumed by OuthemeMetadata
+# / OusthemeMetadata (id, name, author, version, description, type, …).
+# =============================================================================
+
 name: Regenerate themes.json
 
 on:
+  # Trigger when a PR is closed (merged) on the main branch.
   pull_request:
     branches:
       - main
     types:
       - closed
 
+  # Allow manual re-generation from the Actions tab.
   workflow_dispatch:
 
 jobs:
   regenerate-index:
+    # Only run when the PR was actually merged (not just closed/rejected),
+    # OR when triggered manually.
     if: >
       github.event_name == 'workflow_dispatch' ||
       (github.event.pull_request.merged == true &&
@@ -20,12 +43,13 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: write   # needed to push the regenerated themes.json
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          # Fetch the full history so the script can walk all directories.
           fetch-depth: 1
 
       - name: Set up Python
@@ -44,5 +68,6 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add themes.json
+          # Only commit if there are actual changes.
           git diff --cached --quiet || git commit -m "chore: regenerate themes.json [skip ci]"
           git push

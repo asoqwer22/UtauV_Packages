@@ -1,0 +1,51 @@
+# ============================================================
+# UtauV Singer Theme — flat colour manifest example
+# ============================================================
+# Place this file at:
+#   themes/{your_github_username}/{theme_id}/{theme_name}.yaml
+# inside a fork of github.com/emeraldsingers/UtauV_Packages
+# then open a Pull Request and add the label "UtauV_SingerTheme".
+#
+# Example: themes/asoqwer22/my_singer_theme/pastel.yaml
+#
+# A singer theme overrides colours only when the active singer
+# matches one of the names listed in the "singers" field.
+# ============================================================
+
+# ── Meta keys ────────────────────────────────────────────────
+type: singer_theme                   # must be exactly "singer_theme"
+name: My Singer Theme                # display name shown in the Package Manager
+author: your_github_username
+version: "1.0.0"
+description: A colour theme for MySinger.
+long_description: |
+  Optional longer description.
+git_username: your_github_username
+repo: UtauV_Packages
+preview_image: ""                    # optional URL to a preview screenshot
+
+# Comma-separated list of singer names this theme applies to.
+# The Package Manager displays this in the "Singers" column.
+singers: "MySinger, MySinger Append"
+
+# ── Palette / colour keys ─────────────────────────────────────
+# Same flat format as a UI theme.  All non-meta keys are collected
+# into the "palette" dict in themes.json.
+
+is_dark_mode: false
+
+background_color: '#FAFAFA'
+foreground_color: '#1A1A2E'
+border_color: '#D0D0E0'
+
+system_accent_color: '#E91E8C'
+accent_color1: '#C2185B'
+
+tick_line_color: '#F0F0F8'
+bar_number_color: '#555577'
+
+final_pitch_color: '#E91E8C'
+
+white_key_color_left: '#FFFFFF'
+black_key_color_left: '#2D2D4A'
+black_key_name_color: '#FFFFFF'
