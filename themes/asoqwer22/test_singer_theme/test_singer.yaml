@@ -1,0 +1,30 @@
+type: singer)theme
+author: asoqwer
+version: 1.0.0
+description: Test Singer Theme
+git_username: asoqwer22
+repo: UtauV_Packages
+name: Ariku Toune Theme
+singers: 透音アリク
+has_track_accent_color: true
+track_accent_color: '#ffe89158'
+has_track_accent_color_dark: true
+track_accent_color_dark: '#ffa66033'
+has_track_accent_color_light: true
+track_accent_color_light: '#fff2c4a2'
+has_track_center_key_color: true
+track_center_key_color: '#ffbcc3c7'
+has_phoneme_color: true
+phoneme_color: '#ffffffff'
+has_phoneme_color2: true
+phoneme_color2: '#ffd1d1d1'
+has_accent_pen2_color: true
+accent_pen2_color: '#fff0e096'
+has_accent_color_semi: true
+accent_color_semi: '#80e89158'
+has_pitch_color: true
+pitch_color: '#fff0e096'
+has_pitch_bend_color: true
+pitch_bend_color: '#ffffffff'
+has_pitch_bend_brush_color: true
+pitch_bend_brush_color: '#40f0e096'
